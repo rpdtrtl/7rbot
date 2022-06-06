@@ -10,6 +10,7 @@ original_stdout = sys.stdout
 
 messages = []
 channelid = os.getenv('CHANNEL_ID')
+
 def retrieve_messages(channelid):
     headers = {
         'authorization': os.getenv(str('AUTH_TOKEN'))
